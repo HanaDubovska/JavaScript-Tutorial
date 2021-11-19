@@ -32,7 +32,7 @@ function  Continue(){
     document.getElementById("startButton").style.display = "inline";
 }
 
-/* Connection between Stage Index and Stage 1 */
+/* Connection between Stage Index and Stage 1 - Hana Dubovska*/
 
 function GoToStage1(){
     document.getElementById("index").style.display = "none";
@@ -40,7 +40,7 @@ function GoToStage1(){
     document.body.style.backgroundColor = "white";
 }
 
-/* Stage 1 - Colorful dots */
+/* Stage 1 - Colorful dots   - Barbora Briestenska */
 
 /* Dot 1  */
 
@@ -312,7 +312,7 @@ function mouseOut_dot18 (){
     dot18.style.backgroundColor = "black";
 }
 
-/* Connection between Stage 1 and Explanation - Stage 1 */
+/* Connection between Stage 1 and Explanation - Stage 1  - Hana Dubovska*/
 
 dot18.addEventListener("click", GoToStageE1);
 
@@ -322,7 +322,7 @@ function GoToStageE1(){
    
 }
 
-/* Connection between Explanation - Stage 1 and Stage 1-2 */
+/* Connection between Explanation - Stage 1 and Stage 1-2  - Hana Dubovska*/
 
 function GoToStage12(){
     document.getElementById("e-stage1").style.display = "none";
@@ -494,7 +494,7 @@ circle6.addEventListener("mouseout", function () {
 
 
 
-/* Connection between Stage 1-2 and Explanation - Stage 1-2 */
+/* Connection between Stage 1-2 and Explanation - Stage 1-2 - Hana Dubovska*/
 
 function GoToStage_e12(){
     document.getElementById("stage1-2").style.display = "none";
@@ -502,7 +502,7 @@ function GoToStage_e12(){
    
 }
 
-/* Connection between Explanation - Stage 1-2 and Stage 2 */
+/* Connection between Explanation - Stage 1-2 and Stage 2 - Hana Dubovska*/
 
 function GoToStage2(){
     document.getElementById("e-stage1-2").style.display = "none";
@@ -654,7 +654,7 @@ function GoToStage3(){
    
 }
 
-/* Stage 3 - Arrows */
+/* Stage 3 - Arrows - Peter Budolfsen*/
 
 // Make two circles and move on of them using the arrow keys.
 
@@ -717,7 +717,7 @@ if (stage3.classList.contains("show")) {
 // You can also try to add another circle that reacts on four different keys.
 
 
-/* Connection Stage 3 to Explanation - Stage 3 */
+/* Connection Stage 3 to Explanation - Stage 3 - Hana Dubovska*/
 
 function GoToEStage3(){
     document.getElementById("stage3").style.display = "none";
@@ -725,7 +725,7 @@ function GoToEStage3(){
    
 }
 
-/* Connection Explanation - Stage 3 to Stage 4 */
+/* Connection Explanation - Stage 3 to Stage 4 - Hana Dubovska*/
 
 function GoToStage4(){
     document.getElementById("e-stage3").style.display = "none";
@@ -733,7 +733,7 @@ function GoToStage4(){
    
 }
 
-/* Stage 4 - Random guess color */
+/* Stage 4 - Random guess color - Hana Dubovska*/
 
 function changeColors() {
 
@@ -800,7 +800,7 @@ function changeColors() {
     document.getElementById("h1").style.backgroundColor = "white"
 }
 
-/* Connection Stage 4 to Explanation - Stage 4 */
+/* Connection Stage 4 to Explanation - Stage 4 - Hana Dubovska*/
 
 function GoToEStage4(){
     document.getElementById("stage4").style.display = "none";
@@ -808,7 +808,7 @@ function GoToEStage4(){
    
 }
 
-/* Connection Explanation - Stage 4 to Stage 5 */
+/* Connection Explanation - Stage 4 to Stage 5 - Hana Dubovska*/
 
 function GoToStage5(){
     document.getElementById("e-stage4").style.display = "none";
@@ -816,7 +816,7 @@ function GoToStage5(){
     TextAnimation();
 }
 
-/* Stage 5 - Cool text animations*/
+/* Stage 5 - Cool text animations - Peter Budolfsen*/
 
 // https://www.youtube.com/watch?v=GUEB9FogoP8
 
@@ -932,7 +932,7 @@ function TextAnimation(){
     // See CSS-file "textanimation.css" for inspiration.
 }
 
-/* Connection Stage 5 to Explanation - Stage 5 */
+/* Connection Stage 5 to Explanation - Stage 5 - Hana Dubovska*/
 
 function GoToEStage5(){
     document.getElementById("stage5").style.display = "none";
@@ -940,7 +940,7 @@ function GoToEStage5(){
    
 }
 
-/* Connection Explanation - Stage 5 to Stage 6 */
+/* Connection Explanation - Stage 5 to Stage 6 - Hana Dubovska*/
 
 function GoToStage6(){
     document.getElementById("e-stage5").style.display = "none";
@@ -1035,7 +1035,7 @@ resetbtn.addEventListener("click", back);
 
 
 
-/* Connection Stage 6 to Explanation - Stage 6 */
+/* Connection Stage 6 to Explanation - Stage 6 - Hana Dubovska*/
 
 function GoToEStage6(){
     document.getElementById("stage6").style.display = "none";
@@ -1043,7 +1043,7 @@ function GoToEStage6(){
    
 }
 
-/* Connection Explanation - Stage 6 to Final */
+/* Connection Explanation - Stage 6 to Final - Hana Dubovska*/
 
 function GoToFinal(){
     document.getElementById("e-stage6").style.display = "none";
