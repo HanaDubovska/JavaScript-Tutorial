@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="JS/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="index">
+        <div class="main">
+            <div><img id="lightbulb" src="IMG/lightbulb.png" alt="white lightbulb"></div>
+            <div><h2 id="clickonme">Click on me</h2></div>
+            <div><h1 id="text">Type your name:</h1></div>
+            <div><input id="input" type="text"></div>
+            <div><img id="switch" src="IMG/switch.png" alt="white switch"></div>
+            <div><p id="introductionText">Welcome to interactive tutorial. We will introduce some easy examples of coding to you. After each example you can go through steps and learn how to repeat the code yourself. </br> </br> Are you ready?</p></div>
+            <div><button id="continueButton">CONTINUE</button></div>
+            <div><button onclick="GoToStage1()" id="startButton">START</button></div>
+        </div>
+        <div><img id="light" src="IMG/light.png" alt="yellow light"></div>
+    </section>
+
+    <section id="stage1">
+        <div class="heading">
+            <h1>Find the blue color <br> and click on it</h1>
+        </div>
+        <div class="test">
+            <span id="dot1"></span>
+            <span id="dot2"></span>
+            <span id="dot3"></span>
+            <span id="dot4"></span>
+            <span id="dot5"></span>
+            <span id="dot6"></span>
+            <span id="dot7"></span>
+            <span id="dot8"></span>
+            <span id="dot9"></span>
+            <span id="dot10"></span>
+            <span id="dot11"></span>
+            <span id="dot12"></span>
+            <span id="dot13"></span>
+            <span id="dot14"></span>
+            <span id="dot15"></span>
+            <span id="dot16"></span>
+            <span id="dot17"></span>
+            <span id="dot18"></span>
+        </div>
+    </section>
+
+    <section id="e-stage1">
+        <h1>COLORFUL DOTS</h1>
+        <h2>So, lets exlain whats happening here! <br> To make it easier lets concentrate only on one dot.</h2>
+        <h3>HTML</h3>
+        <div class="part1section1">
+            <p class="p1">1. Create a span element in a div, dont forget to assign id to <br>your element (you will need this for styling your element in <br>CSS and also for accesing it with Java Script.</p>
+            <img id="p1p1" src="img/part1p1.png" alt="">
+        </div>
+        <div class="part1section2">
+            <h4>CSS</h4>
+            <p class="p2">2. Add styling to your dot.
+        </div>
+
+
+
+        <div class="part1section3">
+            <img id="p1p2" src="img/part1p2.png" alt="">
+            <div class="paragraphs">
+                <p class="p3">Position your dot, for ex. by<br>using position absolute.</p>
+                <p class="p3">Scale your dot, and add circle shape to<br>it by adding border-radius parameter.</p>
+                <p class="p3">Set background-color, pick the color<br>you would like to display when page is loaded.</p>
+            </div>
+        </div>
+
+
+
+        <div class="part1section4">
+            <h5>And now, the Java Script part!</h5>
+            <div class="part1section5">
+                <p>Oh<br>well ......</p>
+                <img id="p1p3" src="IMG/part1p3.png" alt="">
+                <div class="arrow-section">
+                    <p>... this can be a<br>bit overwhelming<br>so lets brake it<br>down to smaller<br>parts.</p>
+                    <i class="fas fa-chevron-down" id="arrow"></i>
+                </div>
+            </div>
+
+
+        <div class="part1section6">
+            <div>
+                <p>At first you need to access the element with which you would like<br>to work. In this example we do it by <u>getting element by its id</u>.</p>
+                <img id="p1p4" src="IMG/part1p4.png" alt="">
+                <p>Since you will be working with it more, it can be good idea to save<br>it into <u>variable</u>.</p>
+            </div>
+            <div class="psection6">
+                <p>There are different ways of accessing HTML elements:</p>
+                <p>- by id<br>
+                    - by tag name<br>
+                    - by class name<br>
+                    - by CSS selectors<br>
+                    - by HTML object collections</p>
+            </div>
+        </div>
+
+
+        <div class="part1section7">
+            <p>We want the dot to interact with based on if he<br>user moves his mouse either over or out of the<br>dot, thats why we need to use<br><u>EventListener</u>.</p>
+            <img id="p1p5" src="img/part1p5.png" alt="">
+        </div>
+
+
+        <div class="part1section8">
+            <h6>Event parameter can be really diverse, these are some of them: </h6>
+            <p>- mouse events (MouseEvent): mousedown, mouseup, click, dblclick, mousemove, mouseover, mouseout<br>
+                - touch events (TouchEvent): touchstart, touchmove, touchend, touchcancel<br>
+                - keyboard events (KeyboardEvent): keydown, keypress, keyup<br>
+                - form events: focus, blur, change, submit<br>
+                - window events: scroll, resize, load, unload</p>
+        </div> 
+        
+        
+        <div class="part1section9">
+            <img id="p1p7" src="img/part1p7.png" alt="">
+            <p>Now, we need to define <u>functions</u>, which we used in<br>previous step. Their purpose is just to change<br>original styling (color) of the dot.</p>
+        </div> 
+
+        <div class="button">
+            <a href="Tasks/1. Colorful dots.zip" download>
+                <button class="buttons">DOWNLOAD THE CODE</button>
+            </a>
+        </div>
+        </div>
+        <div class="button">
+            <button onclick="GoToStage12()" class="button-next">NEXT</button>
+        </div>
+
+        </div>        
+    </section>
+
+    <section id="stage1-2">
+        <!-- Peter Budolfsen -->
+        <h2>Colorfull circles</h2>
+        <p id="congratulations" class="highlight">version 2</p>
+        <h3 >Find the red circle and click it</h3>
+        <div class="button">
+            <button onclick="GoToStage_e12()" class="button-next">NEXT</button>
+        </div>
+    </section>
+
+    <section id="e-stage1-2">
+        <h1>Colorful dots<br>version 2</h1>
+        <h2>Another way of doing the same task is this...</h2>
+        <p>We will use JavaScript to create all needed HTML and CSS.
+            <br>
+            <br>
+            First we will create a number of circles that differs in size and position. We will also<br>create an mouseover-event, that will change the backround color of each circle when<br>the mouse hovers it. We can make all the circles we want from the same recipe, so again<br>we will focus on one cirlce in the example below.
+            <br>
+            <br>
+            Lastly we will make a "special" function, that congratulates you, when the red circles is clicked.</p>
+         <h2>Circle recipe</h2>  
+
+         <div class="part2section1">
+             <p>Step 1 is to create a "div" in the<br>HTML, that we can turn into a circle.</p>
+             <img id="p2p1"src="img/part2p1.png" alt="">
+         </div> 
+
+         <div class="part2section2">
+             <img id="p2p2" src="IMG/part2p2.png" alt="">
+             <p>Step 2 is to style the circle.</p>
+         </div>
+
+         <div class="part2section3">
+             <p>Step 3 is to create an event that "reveals" the background color.</p>
+             <img id="p2p3" src="img/part2p3.png" alt="">
+             <p>Thats it... now create as many circles as you want, but REMEMBER to use different variable<br>names for each circle.</p>
+         </div>
+         
+         <div class="part2section4">
+             <h2>The grand finale</h2>
+             <p>Now we will add the "special" event that congratulates you, when the red circle has been clicked.</p>
+             <img id="p2p4" src="img/part2p4.png" alt="">
+         </div>
+
+         <div class="button">
+            <a href="Tasks/1-2. Colorful dots.zip" download>
+                <button class="buttons">DOWNLOAD THE CODE</button>
+            </a>
+        </div>
+        </div>
+        <div class="button">
+            <button onclick="GoToStage2()" class="button-next">NEXT</button>
+        </div>
+
+    </section>
+
+    <section id="stage2">
+        <h1 id="heading">CHANGE IMAGES</h1>
+        <section id="changeimages">
+            
+
+                <article id="click">
+            <h2>(Click)</h2>        
+            <div id="image">
+                <img id="clickpurple" src="./img/img1.jpg" alt="painting">
+                <img id="clickorange" src="./img/img2.jpg" alt="painting">
+            </div>
+                </article>
+
+                <article id="setclick">
+            <h2>(Click 5 times)</h2>        
+            <div id="image">
+                <img id="setpurple" src="./img/img1.jpg" alt="painting">
+                <img id="setorange" src="./img/img2.jpg" alt="painting">
+            </div>
+                </article>
+
+                <article id="keydown">
+            <h2>(Press k & d)</h2>        
+            <div id="image">
+                <img id="keypurple" src="./img/img1.jpg" alt="painting">
+                <img id="keyorange" src="./img/img2.jpg" alt="painting">
+            </div>
+                </article>
+
+                <article id="changebtn">
+            <h2>(Button)</h2>
+            <div class="classbtn">
+            <button id="btn">Change</button>
+            </div>        
+            <div class="Image">
+                <img id="btnpurple" src="./img/img1.jpg" alt="painting">
+                <img id="btnorange" class="hidden" src="./img/img2.jpg" alt="painting">
+            </div>
+                </article>
+
+                <article id="timeout">
+            <h2>(Timeout, wait 10 sec)</h2>       
+            <div id="Image">
+                <img id="timepurple" src="./img/img1.jpg" alt="painting">
+                <img id="timeorange" src="./img/img2.jpg" alt="painting">
+            </div>
+                </article>
+
+                <article id="interval">
+            <h2>(Set Interval)</h2>       
+            <div id="Image">
+                <img id="intpurple" src="./img/img1.jpg" alt="painting">
+                <img id="intorange" src="./img/img2.jpg" alt="painting">
+            </div>
+                </article>
+            
+        </section>
+
+        <div class="button">
+            <button onclick="GoToEStage2()" class="button-next">NEXT</button>
+        </div>
+    </section>
+
+    <section id="e-stage2">
+        <section id="clickex">
+            <h3>(Click) <br> Explanation</h3>
+
+            <article id="htmlclick">
+                <h4 id="h4html">HTMl</h4>
+                <p id="pc1">1. Create two different img tags in a div and locate the 
+                    different pictures. Don't forget to assign id's to your tags 
+                    (you will need this for styling your tag in CSS 
+                    and also for accesing it with Java Script.</p>
+                <img id="ssclhtml" src="./img/epart2/click/clickhtml.png" alt="screen">
+            </article>
+
+            <article id="cssclick">
+                <img id="ssclcss" src="./img/epart2/click/clickcss2.png" alt="">
+                <p id="pc2">2. Add styling to your tags <br>
+                    <br>
+                    Make sure the first picture is shown and the second picture is hidden, <br>
+                    with display "block" & "none"</p>
+                <h4 id="h4css">CSS</h4>
+            </article>
+
+            <article id="javaclick">
+                <h4 id="h4js">Javascript</h4>
+                <img id="sscljs" src="./img/epart2/click/clickjs.png" alt="">
+                <p id="pc3">Lets break it down to smaller parts</p>
+            </article>
+
+            <article id="byidclick">
+                <img id="ssclid" src="./img/epart2/click/clickidjs.png" alt="">
+                <p id="pc4">3. First we will make a variable with 'let' for each picture  
+                    and make it equal to the id's from html with:
+                    document.getElementById("the html id")</p>
+            </article>
+
+            <article id="funclick">
+                <p id="pc5">4. Then we create a function for each picture, <br> that shows 
+                    what will happen when you click the picture. <br> Remember right now, the 
+                    second picture is there, but is not shown due to display: "none".  
+                </p>
+                <img id="ssclfu" src="./img/epart2/click/clickfujs.png" alt="">
+            </article>
+
+            <article id="eventclick">
+                <img id="ssclev" src="./img/epart2/click/clickeventjs.png" alt="">
+                <p id="pc6">5. To make the functions work, we will have to
+                    take our variables and add an eventlistner to call the function,
+                    in this example by a "click" and then the name of the function </p>
+            </article>
+
+        </section>
+
+        <section id="setclickex">
+            <h3>(Click 5 times) <br> Explanation</h3>
+
+            <article id="htmlsetclick">
+                <h4 id="h4html">HTMl</h4>
+                <p id="psc1">1. Just like the previous, you create two different img tags in a div. Don't forget to assign id's to your tags 
+                    (you will need this for styling your tag in CSS 
+                    and also for accesing it with Java Script.</p>
+                <img id="sssclhtml" src="./img/epart2/set click/setclhtml.png" alt="screen">
+            </article>
+
+            <article id="csssetclick">
+                <img id="sssclcss" src="./img/epart2/set click/setclcss.png" alt="">
+                <p id="psc2">2. Add styling to your tags <br>
+                    <br>
+                    Make sure the first picture is shown and the second picture is hidden, <br>
+                    with display "block" & "none"</p>
+                <h4 id="h4css">CSS</h4>
+            </article>
+
+            <article id="javasetclick">
+                <h4 id="h4js">Javascript</h4>
+                <img id="ssscljs" src="./img/epart2/set click/setcljs.png" alt="">
+                <p id="psc3">Lets break it down to smaller parts</p>
+            </article>
+
+            <article id="byidsetclick">
+                <img id="sssclid" src="./img/epart2/set click/setclid.png" alt="">
+                <p id="psc4">3. Again, we will make a variable with 'let' for each picture  
+                    and make it equal to the id's from html with:
+                    document.getElementById("the html id") <br>
+                    We then make a variable that defines clicks to start at 0.</p>
+            </article>
+
+            <article id="funsetclick">
+                <p id="psc5">4. Then we create a function, <br> where we take the value 'clicks'
+                    and add an increment with '++' to increase the value. <br> After that, we state
+                    that 'if' you click on the picture 5 times, <br>
+                    it will hide the first picture and show the next. 
+                </p>
+                <img id="sssclfu" src="./img/epart2/set click/setclfu.png" alt="">
+            </article>
+
+            <article id="eventsetclick">
+                <img id="sssclev" src="./img/epart2/set click/setcleve.png" alt="">
+                <p id="psc6">5. This time we only need the variable of the shown picture
+                    to make the function work. Like last time, we add an eventlistner to call the function,
+                    by a "click" and then the name of the function </p>
+            </article>
+
+        </section>
+
+        <section id="keydownex">
+            <h3>(Press k & d) <br> Explanation</h3>
+
+            <article id="htmlkey">
+                <h4 id="h4html">HTMl</h4>
+                <p id="pk1">1. Just like the previous, you create two different img tags in a div. Don't forget to assign id's to your tags 
+                    (you will need this for styling your tag in CSS 
+                    and also for accesing it with Java Script.</p>
+                <img id="sskeyhtml" src="./img/epart2/keydown/keyhtml.png" alt="screen">
+            </article>
+
+            <article id="csskey">
+                <img id="sskeycss" src="./img/epart2/keydown/keycss.png" alt="">
+                <p id="pk2">2. Add styling to your tags <br>
+                    <br>
+                    Make sure the first picture is shown and the second picture is hidden, <br>
+                    with display "block" & "none"</p>
+                <h4 id="h4css">CSS</h4>
+            </article>
+
+            <article id="javakey">
+                <h4 id="h4js">Javascript</h4>
+                <img id="sskeyjs" src="./img/epart2/keydown/keyjs.png" alt="">
+                <p id="pk3">Lets break it down to smaller parts</p>
+            </article>
+
+            <article id="byidkey">
+                <img id="sskeyid" src="./img/epart2/keydown/keyid.png" alt="">
+                <p id="pk4">3. Again, we will make a variable with 'let' for each picture  
+                    and make it equal to the id's from html with:
+                    document.getElementById("the html id") <br>
+                    </p>
+            </article>
+
+            <article id="funkey">
+                <p id="pk5">4. We then create the function 'keyboard' and define the event, in this case (e) <br>
+                    We add the event with the defined (e).key, <br>
+                    which identifies the keyboard buttons and make it equal to the keyboard letters "k" & "d". <br>
+                    
+                </p>
+                <img id="sskeyfu" src="./img/epart2/keydown/keyfunc.png" alt="">
+            </article>
+
+            <article id="eventkey">
+                <img id="sskeyev" src="./img/epart2/keydown/keyevent.png" alt="">
+                <p id="pk6">5. Now we add an eventlistner to call the function,
+                    this time with 'keydown' to make the function reach when pressing down a key. <br>
+                    So if we press "k", the second picture will show and if we press "d", the first picture will show. </p>
+            </article>
+
+        </section>
+
+        <section id="btnex">
+            <h3>(Button) <br> Explanation</h3>
+
+            <article id="htmlbtn">
+                <h4 id="h4html">HTMl</h4>
+                <p id="pb1">1. Just like the previous, you create two different img tags in a div. <br>
+                    For this one you also create a button, so you can change the picture. <br>
+                    Don't forget to assign id's to your tags and a class on the second picture. 
+                    br(you will need this for styling your tag in CSS 
+                    and also for accesing it with Java Script.</p>
+                <img id="ssbtnhtml" src="./img/epart2/button/btnhtml.png" alt="screen">
+            </article>
+
+            <article id="cssbtn">
+                <img id="ssbtncss" src="./img/epart2/button/btncss.png" alt="">
+                <p id="pb2">2. Add styling to your tags <br>
+                <br> For this one, you will hide the class in the second picture with display: "none".
+                <h4 id="h4css">CSS</h4>
+            </article>
+
+            <article id="javabtn">
+                <h4 id="h4js">Javascript</h4>
+                <img id="ssbtnjs" src="./img/epart2/button/btnjs.png" alt="">
+                <p id="pb3">Lets break it down to smaller parts</p>
+            </article>
+
+            <article id="byidbtn">
+                <img id="ssbtnid" src="./img/epart2/button/btnid.png" alt="">
+                <p id="pb4">3. Again, we will make a variable with 'let' for each picture  
+                    and now also the button, and make it equal to the id's from html with: <br>
+                    document.getElementById("the html id") 
+                </p>
+            </article>
+
+            <article id="funbtn">
+                <p id="pb5">4. Inside the function we have called 'shift', we give the values <br>
+                a 'classlist.toogle' each, which takes our class "hidden" with the display: "none" <br>
+                and shifts between the pictures. 
+                </p>
+                <img id="ssbtnfu" src="./img/epart2/button/btnfunc.png" alt="">
+            </article>
+
+            <article id="eventbtn">
+                <img id="ssbtnev" src="./img/epart2/button/btnevent.png" alt="">
+                <p id="pb6">5. So now when we add the eventlistner to the 'change' button, 
+                    the class:"hidden" will toggle between the pictures. </p>
+            </article>
+
+        </section>
+
+        <section id="timeex">
+            <h3>(Timeout, wait 10 sec) <br> Explanation</h3>
+
+            <article id="htmltime">
+                <h4 id="h4html">HTMl</h4>
+                <p id="pt1">1. Just like the previous, you create two different img tags in a div. <br>
+                    Don't forget to assign id's to your tags and a class on the second picture. 
+                    (you will need this for styling your tag in CSS 
+                    and also for accesing it with Java Script.</p>
+                <img id="sstimehtml" src="./img/epart2/timeout/timehtml.png" alt="screen">
+            </article>
+
+            <article id="csstime">
+                <img id="sstimecss" src="./img/epart2/timeout/timecss.png" alt="">
+                <p id="pt2">2. Add styling to your tags <br>
+                    <br>
+                    Make sure the first picture is shown and the second picture is hidden, <br>
+                    with display "block" & "none" </p>
+                <h4 id="h4css">CSS</h4>
+            </article>
+
+            <article id="javatime">
+                <h4 id="h4js">Javascript</h4>
+                <img id="sstimejs" src="./img/epart2/timeout/timejs.png" alt="">
+                <p id="pt3">Lets break it down to smaller parts</p>
+            </article>
+
+            <article id="byidtime">
+                <img id="sstimeid" src="./img/epart2/timeout/timeid.png" alt="">
+                <p id="pt4">3. Again, we will make a variable with 'let' for each picture  
+                    and make it equal to the id's from html with: <br>
+                    document.getElementById("the html id") 
+                </p>
+            </article>
+
+            <article id="settime">
+                <p id="pt5">4. 'SetTimeout' calls the function we have made inside it and will only work once. <br>
+                    It tells to show the second picture and hide the first picture in <br>
+                    10000 milisecond = 10 sec.
+                </p>
+                <img id="sstimefu" src="./img/epart2/timeout/settimeout.png" alt="">
+            </article>
+
+        </section>
+
+        <section id="intex">
+            <h3>(Set Interval) <br> Explanation</h3>
+
+            <article id="htmlint">
+                <h4 id="h4html">HTMl</h4>
+                <p id="pi1">1. Just like the previous, you create two different img tags in a div. <br>
+                    Don't forget to assign id's to your tags and a class on the second picture. 
+                    (you will need this for styling your tag in CSS 
+                    and also for accesing it with Java Script.</p>
+                <img id="ssinthtml" src="./img/epart2/interval/inthtml.png" alt="screen">
+            </article>
+
+            <article id="cssint">
+                <img id="ssintcss" src="./img/epart2/interval/intcss.png" alt="">
+                <p id="pi2">2. Add styling to your tags <br>
+                    <br>
+                    Make sure the second picture is hidden from the start, <br>
+                    with display "none" </p>
+                <h4 id="h4css">CSS</h4>
+            </article>
+
+            <article id="javaint">
+                <h4 id="h4js">Javascript</h4>
+                <img id="ssintjs" src="./img/epart2/interval/intjs.png" alt="">
+                <p id="pi3">Lets break it down to smaller parts</p>
+            </article>
+
+            <article id="byidint">
+                <img id="ssintid" src="./img/epart2/interval/intid.png" alt="">
+                <p id="pi4">3. Again, we will make a variable with 'let' for each picture  
+                    and make it equal to the id's from html with: <br>
+                    document.getElementById("the html id") <br>
+                    For this one, we will use javascript to make the first picture show with <br> display: "block",
+                    because it starts the 'if' statement below.
+                </p>
+            </article>
+
+            <article id="setint">
+                <p id="pi5">4. Create the 'setInterval' and call the function inside. 
+                    'If' the first picture is displayed as "block", as we did above,
+                    it will display to "none" and make the second picture "block". <br>
+                    Then you make the exact opposit statement with the 'else if', so it swicthes between the statements. <br>
+                    Place how many seconds you want the interval to be in miliseconds.
+
+                </p>
+                <img id="ssintfu" src="./img/epart2/interval/setinterval.png" alt="">
+            </article>
+
+        </section>
+        <div class="button">
+            <a href="Tasks/2. Change Images.zip" download>
+                <button class="buttons">DOWNLOAD THE CODE</button>
+            </a>
+        </div>
+        </div>
+        <div class="button">
+            <button onclick="GoToStage3()" class="button-next">NEXT</button>
+        </div>
+    </section>
+
+    <section id="stage3" class="show">
+        <!-- Peter Budolfsen -->
+        <h2>Moving figures with keystrokes</h2>
+        <h3>Press arrow-keys to move the green circle on top of the blue.</h3>
+        <div class="button">
+            <button onclick="GoToEStage3()" class="button-next">NEXT</button>
+        </div>
+    </section>
+
+    <section id="e-stage3">
+        <h1>Arrows</h1>
+        <h2>In this example we will use JavaScript to create all needed HTML and CSS.
+            <br>
+            <br>
+            First we will create the two needed circles and style them.
+            <br>
+            <br>
+            We will then create a SWITCH that moves one of the circles when the<br>arrow-keys are activated.</h2>
+
+            <div class="part3section1" >
+                <p>Step 1 is to create "divs" in the<br>HTML, that we can turn into circles.</p>
+                <img id="ep3p1" src="img/part3p1.png" alt="">
+            </div>
+
+            <div class="part3section2">
+                <img id="ep3p2" src="img/part3p2.png" alt="">
+                <p>Step 2 is to style them into<br>circles and set their position.</p>
+            </div>
+
+            <div class="part3section3">
+                <p>Step 3 is to create an SWITCH that enables movment of the green circle.</p>
+                <img id="ep3p3" src="img/part3p3.png" alt="">
+            </div>
+
+            <div class="button">
+                <a href="Tasks/3. Arrows.zip" download>
+                    <button class="buttons">DOWNLOAD THE CODE</button>
+                </a>
+            </div>
+            </div>
+            <div class="button">
+                <button onclick="GoToStage4()" class="button-next">NEXT</button>
+            </div>
+
+    </section>
+
+    <section id="stage4">
+        <h1>GUESS RANDOM COLOUR</h1>
+        <h1 id="h1">Welcome to game!</h1>
+        <p id="paragraph">Click on the color which you think corresponds with the RGB color code above. If you guessed it righ, row will change its color.</p>
+        <div>
+            <button onclick="changeColors()" id="button">START</button>
+        </div>
+        <div id="squares">
+            <div id="square1"></div>
+            <div id="square2"></div>
+            <div id="square3"></div>
+        </div>
+
+        <div class="button">
+            <button onclick="GoToEStage4()" class="button-next">NEXT</button>
+        </div>
+    </section>
+
+    <section id="e-stage4">
+        <h1>Guess random color</h1>
+        <h2>This one is a bit more complex then the previous one, but dont worry !</h2>
+        <div class="part4section1">
+            <div class="section1">
+                <h3>HTML</h3>
+                <p>1. Create a basic structure of your<br>programme. Remember to write<br>stuff which you would like to display<br>when page is loaded for the first<br>time.
+                    <br>
+                    <br>
+
+                    For a button we have already put a<br>name of function in HTML and its<br>trigger - "on click".</p>
+            </div>
+            <img id="p4p1" src="img/part4p1.png" alt="">   
+        </div>
+
+
+        <div class="part4section2">
+            <img id="p4p2"src="img/part4p2.png" alt="">
+            <div class="section2">
+                <h3>CSS</h3>
+                <p>2. Add styling to all your<br>elements</p>
+                <p>Remember to set background-color of<br>squares, pick the color you would like to<br>display when page is loaded.</p>
+            </div>
+        </div>
+
+
+        <div class="part4section3">
+            <h2>JAVA SCRIPT</h2>
+            <p>We can wrap everything what will happen into function which we have already named in HTML. So at first<br>we have to declare it and decide what we want this function to do.</p>
+            <div class="section3">
+                <img id="p4p3" src="img/part4p3.png" alt="">
+                <p>At first we check what is written<br>on a button. If there is "START",<br>we change it to the text<br>"NEW COLOURS".
+                    <br>
+                    <br>
+                    Also after pressing the button the<br>paragraph with instructions should<br>be displayed. So we change the<br>display from "none" to "inline"</p>
+            </div>
+        </div>
+
+
+        <div class="part4section4">
+            <h2>Creating colors</h2>
+            <p>If we want to create random color we can do this by creating rgb code. So we need<br>three randomly generated numbers in range from 0 - 255.</p>
+            <div class="section4">
+                <div class="paragraph4">
+                    <p>Function Math.random () gives us<br>random number between 0-1,<br>after multiplying it with 256, in<br>most cases we get a decimal<br>number so the last thing we want<br>to do is use Math.floor (), which<br>will convert this number to<br>largest integer less than or equal<br>to a given number.</p>
+                    <p>Since we want to set color of<br>square to this color we need to<br>put generated numbers into<br>string in form: rgb(R, G, B).<br>Thats why we must create this<br>string (lines 16, 22, 28).</p>
+                </div>
+                <img id="p4p4" src="img/part4p4.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="part4section5">
+            <p>When combining Math.random() and Math.floor() remember that<br>the number with which you are multiplying is not included</p>
+            <p>Math.floor(Math.random() * 10) - Returns a random integer from 0 to 9.
+                <br>
+                Math.floor(Math.random() * 11) - Returns a random integer from 0 to 10.</p>
+            <p>Thats why we are multiplying with 256 in previous example even<br>though highest number we need is 255.</p>    
+        </div>
+
+        <div class="part4section6">
+            <h3>Putting one of our color<br>codes into HTML </h3>
+            <div class="section6">
+                <img id="p4p5" src="img/part4p5.png" alt="">
+                <p>If we want color on top of the page to be<br>random, we can put all of our generated color<br>codes into an array, then mix it, and then pick<br>the first one from the list. In last line we<br>change text in inner HTML to this color code.</p>
+            </div>
+        </div>
+
+        <div class="part4section7">
+            <p>When the square is clicked, we<br>check if the color on top of the<br>page is equal to color of square,<br>if yes then background under<br>generated color code is changed<br>to this color.</p>
+            <img id="p4p6" src="img/part4p6.png" alt="">
+        </div>
+
+        <div class="button">
+            <a href="Tasks/4. Random guess color.zip" download>
+                <button class="buttons">DOWNLOAD THE CODE</button>
+            </a>
+        </div>
+
+        <div class="button">
+            <button onclick="GoToStage5()" class="button-next">NEXT</button>
+        </div>
+        
+    </section>
+
+    <section id="stage5" class="show">
+        <!-- Peter Budolfsen -->
+        <h2>Creating cool textanimations</h2>
+
+        <div class="button">
+            <button onclick="GoToEStage5()" class="button-next">NEXT</button>
+        </div>
+
+    </section>
+
+    <section id="e-stage5" >
+        <h1>Creating cool text animations</h1>
+        <h2>In this example we will use JavaScript to create all needed HTML, but we will make<br>some separate CSS to make it easier to figure about what is happening and CSS.
+            <br>
+            <br>
+            First we will create the text that we want to animate and then create three different animations.
+            <br>
+            <br>
+            It will be a bit harder than the previous tasks, so have have patience - you will succeed.</h2>
+        <h3>Making animation text</h3>   
+
+
+        <div class="part5section1">
+            <p>Step 1 is to create the text that we<br>want to animate.</p>
+            <img id="p5p1" src="img/part5p1.png" alt="">
+        </div>
+
+        <div class="part5section2">
+            <img id="p5p2" src="img/part5p2.png" alt="">
+            <p>Step 2 is to extract each letter<br>and put into an array using the<br> split-method.</p>
+        </div>
+
+        <div class="part5section3">
+            <p>Step 3 is to then put a SPAN-element arround each letter.</p>
+            <img id="p5p3" src="img/part5p3.png" alt="">
+        </div>
+        <h3>Making animations</h3>
+        <div class="part5section4">
+            <p>Step 1 is to create the basics<br>for the comming animations.
+                <br>
+                <br>
+                It might not make any sence<br>now, but later they will be used in the animations.
+                <br>
+                <br>
+                Go back and forth a couple of<br>times untill you see the connection.</p>
+                <img id="p5p4" src="img/part5p4.png" alt="">
+        </div>
+        <h3>1st animation</h3>
+        <div class="part5section5">
+            <p>Now we will make a function that for each 100ms ads a class (fade) to the SPAN-elements we just created.
+                
+                We will also make an IF-statement that stops the function from executing, when all letters have been changed.
+            
+                The IF-statement also starts the next animation that we will do.</p>
+                <img id="p5p5" src="img/part5p5.png" alt="">
+
+        </div>
+        <h3>2nd animation</h3>
+        <div class="part5section6">
+            <p>More a less a copy of the above, but the class will have another name, so the styling will be different.</p>
+            <img id="p5p6" src="img/part5p6.png" alt="">
+
+        </div>
+
+        <h3>3nd animation</h3>
+        <div class="part5section7">
+            <p>Again more or less a copy of the above, but the class will have another name, so the styling will be different.<br>
+                and the IF-statement will not execute a new animation.</p>
+            <img id="p5p7" src="img/part5p7.png" alt="">
+        </div>
+
+        <div class="button">
+            <a href="Tasks/5. Text animation.zip" download>
+                <button class="buttons">DOWNLOAD THE CODE</button>
+            </a>
+        </div>
+        </div>
+        <div class="button">
+            <button onclick="GoToStage6()" class="button-next">NEXT</button>
+        </div>
+    </section>
+    
+    <section id="stage6">
+        <h1 id="h1sw">STOP WATCH</h1>
+
+        <div class="box">
+            <div id="time">
+                00:00:00
+            </div>
+
+            <div class="ssbuttons">
+                <button id="startStopbtn">Start</button>
+                <button id="Resetbtn">Reset</button>
+            </div>
+        </div>
+
+        <div class="button">
+            <button onclick="GoToEStage6()" class="button-next">NEXT</button>
+        </div>
+    </section>
+
+    <section id="e-stage6">
+        <h3 id="h3swex">(Stopwatch) <br> Explanation</h3>
+
+        <article id="htmlsw">
+            <h4 id="h4html">HTMl</h4>
+            <p id="psw1">1. Create a div with the displayed time of the watch and a div with the buttons. <br>
+                Remember to assign class and id's to the elements. 
+                (you will need this for styling your tag in CSS 
+                 and also for accesing it with Java Script.</p>
+            <img id="ssswhtml" src="./img(explanation)/swhtml.png" alt="screen">
+        </article>
+
+        <article id="csssw">
+            <img id="ssswcss" src="./img(explanation)/swcss.png" alt="">
+            <p id="psw2">2. Add styling to your tags <br>
+                <br>
+                You can style it as you want, here is how I have styled it.</p>
+            <h4 id="h4css">CSS</h4>
+        </article>
+
+        <h4 id="h4js">Javascript</h4>
+
+        <article id="letsw">
+            <p id="psw3">3. First we will make the variables that defines miliseconds, seconds & minutes <br>
+            and set the values to 0.  </p>
+            <img id="ssswlet" src="./img(explanation)/swlet1.png" alt="screen">
+        </article>
+
+        <article id="let2sw">
+            <img id="ssswlet2" src="./img(explanation)/swlet2.png" alt="screen">
+            <p id="psw4">4. Then we set the textvariables for seconds & minutes to 0, <br>
+            because right now it will only show one 0 at each on the display.  </p>
+        </article>
+
+
+        <article id="let4sw">
+            <p id="psw6">6. This variable defines if the watch have started or stopped.  </p>
+            <img id="ssswlet4" src="./img(explanation)/swlet4.png" alt="screen">
+        </article>
+
+        <article id="funwatch">
+            <p id="psw7">7. We start by creating the function called 'watch'. <br>
+            In the function we increment the miliseconds with '++' and state that, when miliseconds
+            turns to 100 which will be equal to 1, it will increment the seconds and start the miliseconds over. <br>
+            This will make more sense later, when we set the interval to call the function every 10 miliseconds. <br>
+            10*100 = 1000 miliseconds = 1 sec <br>
+            The same goes for seconds to minutes. This time we use 60 === 1, because there are 60 seconds to a minute, <br>
+            so when seconds hits 60, it will increment minutes and start the seconds at 0 again. <br> <br>
+            Remember when we defined the textseconds and textminutes to 0? <br>
+            Right now when the function runs, it will show only one 0 with each on the display, example 0:7:77 <br>
+            Instead we state that 'if' seconds or minutes are from 0-9, it will add another 0 to the display to make it look better.
+            We do that by setting the textvalues to "0" and adds a string to the second & minute values, which is the "0". 
+            </p>
+            <img id="ssfunwatch" src="./img(explanation)/watchfunc.png" alt="screen">
+        </article>
+
+        <article id="fungono">
+            <img id="ssfungono" src="./img(explanation)/gonofunc.png" alt="screen">
+            <p id="psw8">8. This function will make you able to start and stop the watch. <br>
+                We start by calling the start/stop button in html with 'getElementById' and make a variable for the button. We then make
+                the button clickable by adding an 'eventlistner' with 'click' to start the function. <br>
+                Remember earlier when we defined if the watch have 'started' or 'stopped'? We will be using it here to state that,
+                'if' the situation is 'stopped', which it will be from the start. By clicking the 'start' button 
+                it will start the 'watch' function every 10 miliseconds and change the situation to 'started' and change 
+                the button to 'stop'. And the other way around, if we click the 'stop' button now, it will stop the interval 
+                with the 'watch' function and change the situation to 'stopped' and the button to 'start'.
+
+            </p>
+        </article>
+
+        <article id="funback">
+            <p id="psw9">9. This function will make the 'reset' button work. <br>
+                First we call the 'reset' button in html with 'getElementById' and make a variable for the button, 
+                so that we can call the function by clicking the 'reset' button. <br>
+                We then make the function 'back'. In the function we clear the interval from last function, which 
+                reset the miliseconds, seconds & minutes values back to 0. Becides that, we change the display back to 00:00:00 
+                and reload the start/stop button back to 'start'.  <br> <br>
+                Go ahead, give it a try! 
+            </p>
+            <img id="ssfunback" src="./img(explanation)/backfunc.png" alt="screen">
+        </article>
+        
+        <div class="button">
+            <a href="Tasks/6. Stop Watch.zip" download>
+                <button class="buttons">DOWNLOAD THE CODE</button>
+            </a>
+        </div>
+        </div>
+        <div class="button">
+            <button onclick="GoToFinal()" class="button-next">NEXT</button>
+        </div>
+    </section>
+
+    <section id="final">
+        <h1>CONGRATULATIONS</h1>
+        <h2>Now you have skills from those JavaScript topics:</h2>
+        <div class="functions"><p>- declaring variables<br>
+            - loops and switch<br>
+            - conditional statements<br>
+            - functions<br>
+            - arrays<br>
+            - accessing/changing/creating of HTML elements<br>
+            - eventListeners<br>
+            - random</p></div>
+
+    </section>
+</body>
+</html>

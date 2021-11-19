@@ -1,0 +1,1645 @@
+* {
+    margin: 0px;
+    
+} 
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: black;
+}
+.buttons {
+    font-size: 20px;
+    padding: 15px 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: rgb(95, 131, 198);
+    border: none;
+    border-radius: 25px;
+    margin: auto;
+   
+    margin: 100px;
+    cursor: pointer;
+
+}
+.button {
+    text-align: center;
+    cursor: pointer;
+}
+.button-next {
+    font-size: 20px;
+    padding: 15px 50px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: rgb(255, 255, 255);
+    border: black solid 2px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    float: right;
+    cursor: pointer;
+   
+}
+
+/* INDEX */
+
+#index {
+    display: inline;
+    
+}
+#index #main {
+    position: relative;
+    
+}
+
+#index #lightbulb {
+    width: 4%;
+    position: absolute;
+    z-index: 6;
+    left: 17%;
+
+}
+
+#index #switch {
+    width: 7%;
+    position: absolute;
+    z-index: 5;
+    left: 80%;
+    margin-top: 400px;
+    cursor: pointer;
+}
+#index #light {
+    width: 100%; 
+    position: absolute;
+    bottom: 0%;
+    
+    z-index: 1;
+
+    display: none;
+}
+#index #text {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    left: 20%;
+    margin-top: 390px;
+    z-index: 4;
+
+    display: none;
+}
+
+#index #introductionText {
+    width: 50%;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    left: 20%;
+    margin-top: 480px;
+    z-index: 4;
+    text-align: center;
+
+    display: none;
+}
+
+
+#index #input {
+    width: 19%;
+
+    border: none;
+    border-bottom: 2px white solid ;
+    box-sizing: border-box;
+    background-color: #F4CA3E;
+   
+    position: absolute;
+    z-index: 2;
+    left: 21%;
+    margin-top: 475px;
+
+    display: none;
+}
+
+#index #continueButton {
+    font-size: 20px;
+    padding: 15px 50px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    z-index: 3;
+    position: absolute;
+    left: 23%;
+    margin-top: 540px;
+    cursor: pointer;
+
+    display: none;
+    
+}
+
+#index #startButton {
+    font-size: 20px;
+    padding: 15px 50px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    z-index: 3;
+    position: absolute;
+    left: 40%;
+    margin-top: 620px;
+    cursor: pointer;
+
+    display: none;
+    
+}
+#index h2 {
+    font-size: 33px;
+    color: rgb(94, 94, 94);
+    position: absolute;
+    right: 12%;
+    bottom: 54%;
+}
+
+/* STAGE 1 */
+#stage1 {
+    display: none;
+}
+#stage1 .heading {
+    text-align: center;
+}
+
+#stage1 h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+#stage1 #dot1 {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot2 {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot3 {
+    position: absolute;
+    bottom: 10%;
+    left: 4%;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot4 {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot5 {
+    position: absolute;
+    bottom: 6%;
+    left: 24%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot6 {
+    position: absolute;
+    bottom: 25%;
+    left: 17%;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot7 {
+    position: absolute;
+    top: 8%;
+    left: 30%;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot8 {
+    position: absolute;
+    top: 33%;
+    left: 45%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot9 {
+    position: absolute;
+    top: 16%;
+    left: 52%;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot10 {
+    position: absolute;
+    bottom: 18%;
+    left: 40%;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot11 {
+    position: absolute;
+    bottom: 5%;
+    left: 53%;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot12 {
+    position: absolute;
+    bottom: 7%;
+    left: 62%;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot13 {
+    position: absolute;
+    bottom: 7%;
+    right: 10%;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot14 {
+    position: absolute;
+    bottom: 28%;
+    right: 7%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot15 {
+    position: absolute;
+    bottom: 35%;
+    right: 17%;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot16 {
+    position: absolute;
+    top: 30%;
+    right: 8%;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot17 {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+#stage1 #dot18 {
+    position: absolute;
+    top: 7%;
+    right: 15%;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* EXPLANATION STAGE 1 */
+#e-stage1 {
+    display: none;
+}
+#e-stage1 h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+}
+#e-stage1 h2 {
+    font-size: 30px;
+    margin: 50px 0px 100px 0px;
+    text-align: center;
+}
+
+#e-stage1 #p1p1 {
+    width: 25%;
+ }
+ #e-stage1 p {
+     font-size: 25px;
+}
+#e-stage1 .p1 {
+    font-size: 30px;
+}
+
+ #e-stage1 h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding-left: 355px;
+    
+}
+#e-stage1 .part1section1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.part1section2 {
+    display: block;
+    text-align: center;
+    padding-left: 410px;
+}
+#e-stage1 .p2 {
+    font-size: 30px;
+    padding-left: 100px;
+    
+}
+
+#e-stage1 .part1section3 {
+    display: flex;
+    justify-content: center;
+}
+#e-stage1 h4 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    
+}
+#e-stage1 #p1p2 {
+    width: 45%;
+}
+#e-stage1 .p3 {
+    padding: 0px 30px 20px 30px;
+
+}
+#e-stage1 .paragraphs {
+    padding-top: 50px;
+}
+#e-stage1 .part1section5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#e-stage1 #p1p3 {
+    width: 40%;
+}
+#e-stage1 h5 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.arrow-section {
+    display: block;
+}
+#e-stage1 #arrow {
+    background-color: black;
+    font-size: 30px;
+}
+#e-stage1 .part1section6 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+    align-items: center;
+}
+#e-stage1 #p1p4 {
+    width: 60%;
+    padding: 20px;
+}
+#e-stage1 .psection6 p {
+    padding: 10px;
+    
+}
+#e-stage1 .psection6 {
+    border: rgb(136, 136, 136) dashed 2px;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+#e-stage1 #p1p5 {
+    width: 35%;
+}
+#e-stage1 .part1section7 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#e-stage1 h6 {
+    font-size: 30px;
+}
+#e-stage1 .part1section8 {
+    border: rgb(136, 136, 136) dashed 2px;
+    border-radius: 10px;
+    padding: 5px 30px;
+    margin: 50px;
+    
+}
+#e-stage1 .part1section8 p {
+    font-size: 20px;
+    padding: 20px;
+}
+#e-stage1 #p1p7 {
+    width: 35%;
+}
+#e-stage1 .part1section9 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+}
+
+/* STAGE 1-2 */
+#stage1-2 .button-next{
+    position: absolute;
+    bottom: 5%; 
+    right: 5%;
+}
+
+#stage1-2 {
+    display: none;
+}
+#stage1-2 h2{
+    position: absolute;
+    top: 43%; 
+    left: 37%;
+    font-size: 50px;
+}
+
+#stage1-2 h3{
+    position: absolute;
+    top: 48%; 
+    left: 30%;
+    font-size: 50px;
+}
+
+#stage1-2 p{
+    position: absolute;
+    top: 56%; 
+    left: 44%;
+    font-size: 40px;
+}
+/* EXPLANATION STAGE 1-2 */
+#e-stage1-2 {
+    display: none;
+}
+
+#e-stage1-2 h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+}
+#e-stage1-2 h2 {
+    font-size: 30px;
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+}
+#e-stage1-2 p {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+#e-stage1-2 .part2section1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#e-stage1-2 #p2p1 {
+    width: 40%;
+}
+#e-stage1-2 .part2section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+#e-stage1-2 #p2p2 {
+    width: 27%;
+}
+#e-stage1-2 #p2p3 {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+#e-stage1-2 #p2p4 {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+#e-stage1-2 .part2section3 {
+    align-items: center;
+    margin: 0px;
+}
+
+/* STAGE 2 */
+#stage2 {
+    display: none;
+}
+#stage2 #heading  {
+    margin: auto;
+    text-align: center;
+    font-size: 70px;
+}
+
+#stage2 h2   {
+    margin: 10px;
+    margin-top: auto;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+#stage2 #changeimages {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+
+#stage2 img {
+    width: 60%;
+    margin-left:auto ;
+    margin-right: auto;
+    
+}
+
+
+#stage2 #clickpurple, #setpurple, #keypurple, #timepurple {
+    display: block;
+}
+
+#stage2 #clickorange, #setorange, #keyorange, #timeorange, #intorange  {
+    display: none;
+}
+
+
+#stage2 .classbtn {
+    margin-top: -5%;
+    position: relative;
+    left: 42%;
+ 
+}
+
+#stage2 #btnpurple, #btnorange {
+    position: relative;
+    left: 20%;
+}
+
+#stage2 .hidden {
+    display: none;
+}
+
+/* EXPLANATION STAGE 2 */
+#e-stage2 {
+    display: none;
+}
+/* explanations (Click) */
+
+#e-stage2 h3, h4 {
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#e-stage2 #h4html, #h4css  {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    font-size: 30px;
+}
+
+#e-stage2 #h4js {
+    margin: 20px;
+}
+
+#e-stage2 #htmlclick, #cssclick, #byidclick, #funclick, #eventclick  {
+    display: inline-flex;
+    margin-top: 40px;
+}
+
+#e-stage2 #ssclhtml {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+#e-stage2 p {
+    font-size: 20px;
+}
+
+#e-stage2 #pc2 {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 150px;
+   
+}
+
+#e-stage2 #pc3 {
+    margin: 10px;
+    text-align: center;
+}
+
+#e-stage2 #pc4, #pc6 {
+    text-align: center;
+}
+
+#e-stage2 #ssclcss {
+    width: 250px;
+    height: 235px;
+    margin-left: 200px;
+}
+
+#e-stage2 #sscljs {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#e-stage2 #ssclid, #ssclev  {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    height: 80px;
+}
+
+#e-stage2 #ssclfu {
+    width: 400px;
+    height: 200px;
+    
+}
+
+
+#e-stage2 #pc5 {
+    margin-top: 70px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 40px;
+    
+}
+
+/* explanations (Set Click) */
+
+
+
+#e-stage2 #htmlsetclick, #csssetclick, #byidsetclick, #funsetclick, #eventsetclick  {
+    display: inline-flex;
+    margin-top: 40px;
+}
+
+#e-stage2 #sssclhtml {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+
+#e-stage2 #psc2 {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 150px;
+   
+}
+
+#e-stage2 #psc3 {
+    margin: 10px;
+    text-align: center;
+}
+
+#e-stage2 #psc4, #psc6 {
+    text-align: center;
+}
+
+#e-stage2 #sssclcss {
+    width: 250px;
+    height: 235px;
+    margin-left: 200px;
+}
+
+#e-stage2 #ssscljs {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#e-stage2 #sssclid {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    height: 80px;
+}
+
+#e-stage2 #sssclfu {
+    width: 400px;
+    height: 200px;
+    
+}
+
+#e-stage2 #sssclev {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    height: 60px;
+}
+
+#e-stage2 #psc5 {
+    margin-top: 70px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 40px;
+    
+}
+
+/* explanations (Keydown) */
+
+#e-stage2 #htmlkey, #csskey, #byidkey, #funkey, #eventkey  {
+    display: inline-flex;
+    margin-top: 40px;
+}
+
+#e-stage2 #sskeyhtml {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+
+#e-stage2 #pk2 {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 150px;
+   
+}
+
+#e-stage2 #pk3 {
+    margin: 10px;
+    text-align: center;
+}
+
+#e-stage2 #pk4, #pk6 {
+    text-align: center;
+}
+
+#e-stage2 #sskeycss {
+    width: 250px;
+    height: 235px;
+    margin-left: 200px;
+}
+
+#e-stage2 #sskeyjs {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#e-stage2 #sskeyid {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    height: 80px;
+}
+
+#e-stage2 #sskeyfu {
+    width: 400px;
+    height: 200px;
+    
+}
+
+#e-stage2 #sskeyev {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    height: 60px;
+}
+
+#e-stage2 #pk5 {
+    margin-top: 70px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 40px;
+    
+}
+
+/* explanations (Button) */
+
+#e-stage2 #htmlbtn, #cssbtn, #byidbtn, #funbtn, #eventbtn  {
+    display: inline-flex;
+    margin-top: 40px;
+}
+
+#e-stage2 #ssbtnhtml {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 500px;
+    height: 150px;
+}
+
+
+#e-stage2 #pb2 {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 150px;
+   
+}
+
+#e-stage2 #pb3 {
+    margin: 10px;
+    text-align: center;
+}
+
+#e-stage2 #pb4, #pb6 {
+    text-align: center;
+}
+
+#e-stage2 #ssbtncss {
+    width: 250px;
+    height: 235px;
+    margin-left: 200px;
+}
+
+#e-stage2 #ssbtnjs {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#e-stage2 #ssbtnid {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    height: 80px;
+}
+
+#e-stage2 #ssbtnfu {
+    width: 400px;
+    height: 200px;
+    
+}
+
+#e-stage2 #ssbtnev {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    height: 60px;
+}
+
+#e-stage2 #pb5 {
+    margin-top: 70px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 40px;
+    
+}
+
+/* explanations (Timeout) */
+
+#e-stage2 #htmltime, #csstime, #byidtime, #settime, #eventtime  {
+    display: inline-flex;
+    margin-top: 40px;
+}
+
+#e-stage2 #sstimehtml {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+
+#e-stage2 #pt2 {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 150px;
+   
+}
+
+#e-stage2 #pt3 {
+    margin: 10px;
+    text-align: center;
+}
+
+#e-stage2 #pt4, #pt6 {
+    text-align: center;
+}
+
+#e-stage2 #sstimecss {
+    width: 250px;
+    height: 235px;
+    margin-left: 200px;
+}
+
+#e-stage2 #sstimejs {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#e-stage2 #sstimeid {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    height: 80px;
+}
+
+#e-stage2 #sstimefu {
+    width: 400px;
+    height: 200px;
+    
+}
+
+#e-stage2 #sstimeev {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    height: 60px;
+}
+
+#e-stage2 #pt5 {
+    margin-top: 70px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 40px;
+    
+}
+
+/* explanations (Interval) */
+
+#e-stage2 #htmlint, #cssint, #byidint, #setint, #eventint  {
+    display: inline-flex;
+    margin-top: 40px;
+}
+
+#e-stage2 #ssinthtml {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+
+#e-stage2 #pi2 {
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 200px;
+   
+}
+
+#e-stage2 #pi3 {
+    margin: 10px;
+    text-align: center;
+}
+
+#e-stage2 #pi4, #pi6 {
+    text-align: center;
+}
+
+#e-stage2 #ssintcss {
+    width: 250px;
+    height: 235px;
+    margin-left: 200px;
+}
+
+#e-stage2 #ssintjs {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#e-stage2 #ssintid {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    height: 80px;
+}
+
+#e-stage2 #ssintfu {
+    width: 400px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 60px;
+    
+}
+
+#e-stage2 #ssintev {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    height: 60px;
+}
+
+#e-stage2 #pi5 {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 40px;
+    
+}
+
+
+/* STAGE 3 */
+#stage3 {
+    text-align: center;
+    display: none;
+}
+
+#stage3 .button-next{
+    position: absolute;
+    bottom: 5%; 
+    right: 5%;
+}
+
+/* EXPLANATION STAGE 3 */
+#e-stage3 {
+    display: none;
+}
+#e-stage3 h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+}
+#e-stage3 h2 {
+    font-size: 30px;
+    margin: 50px 0px 100px 0px;
+    text-align: center;
+}
+#e-stage3 p {
+    font-size: 25px;
+    padding: 10px;
+}
+#e-stage3 #ep3p1 {
+    width: 40%;
+}
+#e-stage3 .part3section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#e-stage3 .part3section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px;
+}
+#e-stage3 #ep3p2 {
+    width: 30%;
+}
+#e-stage3 .part3section3 {
+   text-align: center;
+    margin: 50px;
+}
+#e-stage3 #ep3p3 {
+    width: 65%;
+    padding: 10px;
+}
+/* STAGE 4 */
+
+#stage4 {
+    display: none;
+    text-align: center;
+}
+#stage4 #square1 {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin: 70px 10px 10px 10px;
+    cursor: pointer;
+    
+}
+
+#stage4 #square2 {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin: 70px 10px 10px 10px;
+    cursor: pointer;
+    
+}
+
+#stage4 #square3 {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin: 70px 10px 10px 10px;
+    cursor: pointer;
+    
+}
+
+
+#stage4 #squares {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 70px;
+    display: flex;
+}
+#stage4 h1 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 80px;
+    margin-top: 60px;
+}
+
+
+#stage4 span {
+    font-size: 40px;
+}
+
+#stage4 p {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    margin: 10px;
+ 
+}
+
+#stage4 #paragraph{
+    text-align: center;
+    display: none;
+}
+
+#stage4 #button {
+    width: 150px;
+    padding: 15px 20px;
+    background-color: darkgray;
+    border: black solid 3px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    cursor: pointer;
+}
+
+/* EXPLANATION STAGE 4 */
+#e-stage4 {
+    display: none;
+}
+#e-stage4 h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+}
+#e-stage4 h2 {
+    font-size: 30px;
+    margin: 50px 0px 100px 0px;
+    text-align: center;
+}
+#e-stage4 p {
+    font-size: 25px;
+    padding: 10px;
+}
+#e-stage4 h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;    
+}
+#e-stage4 #p4p1 {
+    width: 50%;
+}
+#e-stage4 .part4section1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#e-stage4 .section1 {
+    display: block;
+}
+#e-stage4 .part4section2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    text-align: center;
+}
+#e-stage4 .section2 {
+    display: block;
+}
+
+#e-stage4 #p4p2 {
+    width: 30%;
+}
+#e-stage4 .section3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+#e-stage4 #p4p3 {
+    width: 60%;
+}
+#e-stage4 .part4section3 {
+    margin: 100px;
+    text-align: center;
+}
+#e-stage4 .part4section3 h2 {
+    margin: 20px;
+}
+#e-stage4 .section4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+}
+#e-stage4 #p4p4 {
+    width: 50%;
+}
+#e-stage4 .part4section4 {
+    text-align: center;
+}
+#e-stage4 .part4section4 h2 {
+    margin: 20px;
+}
+#e-stage4 .part4section5 {
+    text-align: center;
+    border: rgb(136, 136, 136) dashed 2px;
+    border-radius: 10px;
+    padding: 5px 30px;
+    margin: 100px;
+}
+#e-stage4 .part4section5 p {
+    padding: 15px;
+}
+#e-stage4 .section6 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+}
+#e-stage4 #p4p5 {
+    width: 50%;
+}
+#e-stage4 .part4section7 {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    align-items: center;
+}
+#e-stage4 #p4p6 {
+    width: 70%;
+}
+
+/* STAGE 5 */
+
+#stage5 .button-next{
+    position: absolute;
+    bottom: 5%; 
+    right: 5%;
+}
+
+#stage5 {
+    display: none;
+}
+#stage5 span {
+    opacity: 0;
+    color: rgb(55, 233, 55);
+    transition: all 0.5s ease;
+}
+
+#stage5 .fade {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+#stage5 .colorChange {
+    color: rgb(108, 50, 202);
+}
+
+#stage5 .scale {
+    font-size: xx-large;
+}
+
+#stage5 .highlight {
+    font-weight: bold;
+    text-align: center;
+}
+
+#stage5 h2, h3 {
+    text-align: center;
+}
+
+#stage5 section {
+    min-height: 100vh;
+}
+
+
+/* EXPLANATION STAGE 5 */
+#e-stage5 {
+    display: none;
+}
+#e-stage5 h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+}
+#e-stage5 h2 {
+    font-size: 30px;
+    margin: 50px 0px 100px 0px;
+    text-align: center;
+}
+#e-stage5 h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#e-stage5 p {
+    font-size: 25px;
+    padding: 10px;
+}
+#e-stage5 .part5section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#e-stage5 #p5p1 {
+    width: 45%;
+}
+#e-stage5 .part5section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+#e-stage5 #p5p2 {
+    width: 45%;
+}
+#e-stage5 .part5section3 {
+    text-align: center;
+    margin: 80px;    
+}
+#e-stage5 #p5p3 {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+#e-stage5 .part5section4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+#e-stage5 #p5p4 {
+    width: 55%;
+}
+#e-stage5 .part5section5 {
+    text-align: center;
+    margin: 50px;
+}
+#e-stage5 #p5p5 {
+    width: 100%;
+    padding: 30px;
+}
+#e-stage5 .part5section6 {
+    text-align: center;
+    margin: 50px;
+}
+#e-stage5 #p5p6 {
+    width: 75%;
+    padding: 30px;
+}
+#e-stage5 .part5section7 {
+    text-align: center;
+    margin: 50px;
+}
+#e-stage5 #p5p7 {
+    width: 75%;
+    padding: 30px;
+}
+
+/* STAGE 6 */
+#stage6 {
+    display: none;
+}
+
+#stage6 .button-next{
+    position: absolute;
+    bottom: 5%; 
+    right: 5%;
+}
+
+#stage6 #h1sw  {
+    margin: auto;
+    text-align: center;
+    font-size: 100px;
+}
+
+#stage6 .box {
+    height: 160px;
+    width: 40%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+}
+
+
+#stage6 #time {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+#stage6 .ssbuttons {
+    margin-top: 5px;
+    text-align: center;
+    
+    
+}
+
+/* EXPLANATION STAGE 6 */
+#e-stage6 {
+    display: none;
+}
+#e-stage6 #h3swex, #h4js {
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#e-stage6 #h4html, #h4css  {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#e-stage6 #htmlsw, #csssw, #letsw, #let2sw, #let3sw, #let4sw, #funwatch, #fungono, #funback {
+    display: inline-flex;
+    margin-top: 40px;
+}
+
+#e-stage6 #ssswhtml {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 500px;
+    height: 200px;
+}
+
+#e-stage6 p {
+    font-size: 20px;
+}
+
+#e-stage6 #psw1 {
+    margin-top: 70px;
+    text-align: center;
+    margin-right: 100px;
+   
+}
+
+#e-stage6 #psw2 {
+    margin-top: 130px;
+    text-align: center;
+    margin-left: 150px;
+   
+}
+
+#e-stage6 #psw3, #psw4, #psw5, #psw6, #psw7, #psw8, #psw9 {
+    margin: 45px;
+    margin-left: 90px;
+    text-align: center;
+}
+
+#e-stage6 #ssswcss {
+    width: 350px;
+    height: 350px;
+    margin-left: 200px;
+}
+
+#e-stage6 #ssswlet {
+    margin-top: 15  px;
+    width: 300px;
+    height: 100px;
+}
+
+#e-stage6 #ssswlet2, #ssswlet4 {
+    width: 300px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+#e-stage6 #ssswlet3 {
+    width: 300px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+#e-stage6 #ssfunwatch {
+    margin-top: 15px;
+    margin-right: 30px;
+    width: 600px;
+    height: 520px;
+}
+
+#e-stage6 #ssfungono {
+    width: 500px;
+    height: 330px;
+    margin-left: 30px;
+}
+
+#e-stage6 #ssfunback {
+    width: 500px;
+    height: 330px;
+    margin-right: 30px;
+    
+}
+/* FINAL */
+#final {
+    display: none;
+    background-color: black;
+}
+#final h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 70px;
+}
+#final h2 {
+    font-size: 30px;
+    margin: 30px 0px 50px 0px;
+    text-align: center;
+}
+#final p {
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 450px;
+}
