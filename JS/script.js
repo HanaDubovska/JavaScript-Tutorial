@@ -1,5 +1,5 @@
 
-/* Index - Light bulb introduction */
+/* Index - Light bulb introduction - Barbora Briestenska*/
 
 /* Switch button */
 
