@@ -507,6 +507,7 @@ function GoToStage_e12(){
 function GoToStage2(){
     document.getElementById("e-stage1-2").style.display = "none";
     document.getElementById("stage2").style.display = "inline";
+    TimeOut();
    
 }
 
@@ -601,18 +602,20 @@ function shift() {
 // By clicking the button, the function starts
 btn.addEventListener("click", shift);
 
+
+function TimeOut(){
 // (TIMEOUT)
 // Takes the id´s from the html so you can make it interactive
-let purpletime = document.getElementById("timepurple");
-let orangetime = document.getElementById("timeorange");
+    let purpletime = document.getElementById("timepurple");
+    let orangetime = document.getElementById("timeorange");
 
 // Sets the timeout and calls the function inside,
 // to change the elements in 10 sec in miliseconds
-setTimeout(() => {
-    orangetime.style.display = "block";
-    purpletime.style.display = "none";
-}, 10000); 
-
+    setTimeout(() => {
+        orangetime.style.display = "block";
+        purpletime.style.display = "none";
+    }, 10000); 
+}
 
 // (INTERVAL)
 // Takes the id´s from the html so you can make it interactive
@@ -651,6 +654,8 @@ function GoToEStage2(){
 function GoToStage3(){
     document.getElementById("e-stage2").style.display = "none";
     document.getElementById("stage3").style.display = "inline";
+    document.getElementById("stage3").classList.add("show");
+    Arrows();
    
 }
 
@@ -690,6 +695,8 @@ let moveBy = 100;
 // Create switch that sets up rules for the four arrow keys.
 let stage3 = document.getElementById("stage3");
 
+
+function Arrows() {
 if (stage3.classList.contains("show")) {
   window.addEventListener("keydown", (e) => {
     switch (e.key) {
@@ -711,6 +718,8 @@ if (stage3.classList.contains("show")) {
         break;
     }
   });
+}
+
 }
 // Try changing the moveBy and see what happens...
 
